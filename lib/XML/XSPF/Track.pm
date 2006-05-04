@@ -1,11 +1,11 @@
 package XML::XSPF::Track;
 
-# $Id: /mirror/sdi-opensource/XML-XSPF/lib/XML/XSPF/Track.pm 12537 2006-05-04T18:06:09.214291Z dsully  $
+# $Id: /mirror/sdi-opensource/XML-XSPF/lib/XML/XSPF/Track.pm 12539 2006-05-04T19:18:24.149568Z dsully  $
 
 use strict;
 use base qw(XML::XSPF::Base);
 
-INIT {
+{
 	my $class = __PACKAGE__;
 
 	$class->mk_accessors(qw(

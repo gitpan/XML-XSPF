@@ -1,6 +1,6 @@
 package XML::XSPF;
 
-# $Id: /mirror/sdi-opensource/XML-XSPF/lib/XML/XSPF.pm 12537 2006-05-04T18:06:09.214291Z dsully  $
+# $Id: /mirror/sdi-opensource/XML-XSPF/lib/XML/XSPF.pm 12561 2006-05-04T22:40:02.923622Z dsully  $
 
 use strict;
 use base qw(XML::XSPF::Base);
@@ -14,7 +14,7 @@ use XML::Writer;
 
 use XML::XSPF::Track;
 
-our $VERSION  = '0.5';
+our $VERSION  = '0.5.1';
 
 our %defaults = (
 	'version' => 1,
@@ -23,7 +23,7 @@ our %defaults = (
 	'creator' => 'kermit the frog',
 );
 
-INIT {
+{
 	my $class = __PACKAGE__;
 
 	# Public Methods
