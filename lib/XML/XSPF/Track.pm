@@ -1,6 +1,6 @@
 package XML::XSPF::Track;
 
-# $Id: /mirror/sdi-opensource/XML-XSPF/lib/XML/XSPF/Track.pm 12539 2006-05-04T19:18:24.149568Z dsully  $
+# $Id: Track.pm 15 2006-05-04 19:18:24Z dsully $
 
 use strict;
 use base qw(XML::XSPF::Base);
